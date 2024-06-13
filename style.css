@@ -9,14 +9,15 @@
 #landing-page {
     min-height: 100vh;
     margin-bottom: -100px;
+   
   }
 body {
     height: 100vh;
     background-image: url("./assets/DALL·E\ 2024-06-11\ 17.07.48\ -\ A\ vibrant\,\ 3D\ cartoonish\ popcorn\ bucket\ with\ a\ cinematic\ feel.\ The\ bucket\ should\ have\ bright\ colors\ like\ red\ and\ white\ stripes\,\ overflowing\ with\ popco.webp");
     background-color: #cccccc;
-   
-    background-size: contain;
-    
+   background-size: cover;
+   background-position: center;
+     
     
 }
 
@@ -152,7 +153,7 @@ nav {
 /* landing page */
 
 .form__position {
-    height: 100%;
+    height: auto;
     max-height: 500px;
     position: absolute;
     max-width: 400px;
@@ -163,6 +164,8 @@ nav {
     border: 2px solid #ffd60a;
     background-color: #0000003f;
     border-radius: 25%;
+    padding: 20px;
+    box-sizing: border-box;
    
    
 }
@@ -255,7 +258,7 @@ background-color: #eff7ffaf;
   .project__img {
     position: relative;
     width: 100%;
-    display: block;
+    
     
 
 }
