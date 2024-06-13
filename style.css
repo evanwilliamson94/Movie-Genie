@@ -274,7 +274,7 @@ background-color: #eff7ffaf;
     position: relative;
     display: inline-block;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1500px;
 }
 
     .image-container img {
@@ -287,7 +287,8 @@ background-color: #eff7ffaf;
 
     .results-img {
         width: 100%;
-        
+        height: auto;
+        display: block;
     }
     .box {
         position: absolute;
