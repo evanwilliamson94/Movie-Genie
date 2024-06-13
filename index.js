@@ -45,7 +45,7 @@ function displayResults(movies) {
             box.innerHTML = 
             `<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
 
-             <img src="${movie.Poster}" alt="${movie.Title}" style="width: 60%; height: 50%; border-radius: 5%;"/>
+             <img src="${movie.Poster}" alt="${movie.Title}" style="width: 55%; height: 50%; border-radius: 5%;"/>
                 <p style="font-size: 18px; font-weight: bold; color: #ffd60a; margin: 5px 0;">${movie.Title}</p><p style="color: #ffd60a; font-size: 14px; font-weight: bold;">(${movie.Year})</p></div>
                 `;
         } else {

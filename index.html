@@ -15,11 +15,11 @@
             </figure>
             <ul class="nav__link--list">
                 <li class="nav__link">
-                    <a href="#" class="nav__link--anchor
+                    <a href="#" class="nav__link--anchor inactive-link
                     link__hover-effect">Get Personalized Movie List</a>
                 </li>
                 <li class="nav__link">
-                    <a href="#" class="nav__link--anchor
+                    <a href="#"  class="nav__link--anchor inactive-link
                     link__hover-effect">Socials</a>
                 </li>
             </ul>
@@ -28,17 +28,17 @@
             <header class="header">
             <div class="header__content">
                 <h1 class="title yellow">Movie <br>Genie</h1>
-                <p class="header__para">Find Your Movie Magic <br> <img src="./assets/hat-wizard-solid-2.svg" alt=""> </p>
+                <p class="header__para">Find Your Movie Magic <br> <span class="shake"><img src="./assets/hat-wizard-solid-2.svg" alt=""> </span></p>
                 <div class="search-container">
                     <input type="text" id="movieInput" placeholder="Type your movie name">
-                    <button id="searchButton">Search</button>
+                    <button id="searchButton"><a style="color: #242424;" href="#results">Search</a></button>
                 </div>
             </div>
         </div>
         
         </header>
     </section>
-    <section id="projects">
+    <section id="results">
         <div class="container">
           
             <h1 class="section__title blink">
@@ -49,10 +49,10 @@
                 <div class="project__wrapper">
                     <div class="image-container">
                         <img class="results-img" src="assets/movie genie results.webp" alt="Image Description">
-                        <div class="box box1">Box 1</div>
-                        <div class="box box2">Box 2</div>
-                        <div class="box box3">Box 3</div>
-                        <div class="box box4">Box 4</div>
+                        <div class="box Result-1">Result 1</div>
+                        <div class="box Result-2">Result 2</div>
+                        <div class="box Result-3">Result 3</div>
+                        <div class="box Result-4">Result 4</div>
                     </div>
             </li>
             </ul>
@@ -69,7 +69,7 @@
         
             </a>
             <div class="footer__social--list">
-              <a href="https://github.com/evanwilliamson94" class="
+              <a href="https://github.com/evanwilliamson94" target="_blank" class="
               nav__link--anchor ">
                 GitHub
               </a>
@@ -77,7 +77,7 @@
               nav__link--anchor ">
                 LinkedIn
               </a>
-              <a href="#" class="
+              <a href="mailto:evanwilliamson1994@gmial.com?" target="_blank" class="
               nav__link--anchor
                     link__hover-effect">
                 Contact
